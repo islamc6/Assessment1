@@ -1,0 +1,38 @@
+
+header {
+    background-color: lightblue;  
+    color: white;  
+}
+
+body {
+    background-color: white;  
+}
+
+/* Footer Styling */
+footer {
+    background-color: lightblue;  /* Change to the color you want */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.img-fluid {
+  width: 95%; /* Adjust this value to whatever size you prefer */
+}
+

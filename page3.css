@@ -1,0 +1,79 @@
+header {
+    background-color: lightblue;  
+    color: white;  
+}
+
+body {
+    background-color: white;  
+}
+
+/* Footer Styling */
+footer {
+    background-color: lightblue;  /* Change to the color you want */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.img-fluid {
+  width: 95%; /* Adjust this value to whatever size you prefer */
+}
+/* Basic reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Header styling */
+header {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Set a fixed height for the header */
+    overflow: hidden;
+}
+
+/* Image styling - no transparency, smaller size */
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the header area */
+}
+
+/* Overlay styling for text */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive; /* Fancy joined font */
+    font-size: 3rem; /* Adjust size to fit the header */
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Fancy shadow for readability */
+}
+
+.overlay h1 {
+    margin: 0;
+}
+
+
+
+
