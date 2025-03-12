@@ -29,10 +29,44 @@ footer p {
     margin: 0 10px;
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .img-fluid {
   width: 95%; /* Adjust this value to whatever size you prefer */
 }
 
+section a {
+    color: black;  /* Set the text color to black */
+    text-decoration: none;  /* Remove the underline */
+}
+
+section a:hover {
+    color: #333;  /* Darker shade for hover effect */
+    text-decoration: underline;  /* Optional: add underline on hover if desired */
+}
+
+
+section.mt-5.ml-3 {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(120, 156, 221, 0.589); /* Subtle shadow for effect */
+}
+
+section.mt-5.ml-3 h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section.mt-5.ml-3 ul {
+    list-style-type: square; /* Square bullet points */
+    margin-left: 20px;
+}
+
+section.mt-5.ml-3 ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 8px;
+}

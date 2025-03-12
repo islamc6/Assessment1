@@ -7,11 +7,12 @@
     <title>My Hometown</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 </head>
 
 <body>
-   
-
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,99 +31,118 @@
             </ul>
         </div>
     </nav>
-     <header class="text-white text-center py-5">
+
+    <!-- Header -->
+    <header class="text-white text-center py-5">
         <h1>My Hometown Glasgow</h1>
         <p>Discover some historical insights and must-do activities of Glasgow</p>
     </header>
 
+    <!-- Main Content -->
     <main class="container mt-5">
         <div class="row">
+            <!-- Left Column -->
             <div class="col-md-6">
                 <section>
                     <h2>About My Town</h2>
-                  <p>  <h6>Location</h6> Glasgow is situated in the west-central Lowlands of Scotland, along the River Clyde. History: Glasgow has a rich industrial heritage, particularly renowned during the 18th and 19th centuries for shipbuilding, engineering, and textiles. It evolved from a small settlement into one of the UK's most significant cities.</p>
-                    <p> <h6>Culture</h6> Glasgow is known for its vibrant arts scene, boasting numerous galleries, museums, and theaters. Highlights include the Kelvingrove Art Gallery and Museum, the Glasgow Science Centre, and the Theatre Royal.</p>
-                    <p> <h6>Education</h6> The city hosts several prestigious universities, such as the University of Glasgow (one of the oldest universities in the UK), Glasgow Caledonian University, and the University of Strathclyde.</p>
-                    <p><h6>Architecture </h6> Glasgow's architecture is a stunning mix of Victorian, Edwardian, and contemporary styles. Charles Rennie Mackintosh, a famous architect, designed several iconic buildings here.</p>
-                    <img src="image2.webp" alt="An image hopefully if i can figure it out " class="img-fluid">
+                    <h5>Location</h5>
+                    <p>Glasgow is situated in the west-central Lowlands of Scotland, along the River Clyde.</p>
+
+                    <h5>History</h5>
+                    <p>Glasgow has a rich industrial heritage,
+                       particularly renowned during the 18th and 19th centuries for shipbuilding, 
+                       engineering, and textiles. It evolved from a small settlement into one of the UK's most significant cities.</p>
+
+                    <h5>Culture</h5>
+                    <p>Glasgow is known for its vibrant arts scene, boasting numerous galleries, museums, and theaters.
+                       Highlights include the Kelvingrove Art Gallery and Museum, the Glasgow Science Centre, and the Theatre Royal.</p>
+
+                    <h5>Education</h5>
+                    <p>The city hosts several prestigious universities, such as the University of Glasgow
+                       (one of the oldest universities in the UK), Glasgow Caledonian University, and the University of Strathclyde.</p>
+
+                    <h5>Architecture</h5>
+                    <p>Glasgow's architecture is a stunning mix of Victorian, Edwardian, and contemporary styles.
+                       Charles Rennie Mackintosh, a famous architect, designed several iconic buildings here.</p>
+                    <img src="image2.webp" class="img-fluid">
                 </section>
-                 <section class="mt-5 ml-3">
-    <h4>Further Information</h4>
-    <ul>
-        <li><a href="https://www.nts.org.uk/stories/glasgow-2-day-itinerary" target="_blank">National Trust Scotland</a></li>
-        <li><a href="https://www.spt.co.uk/travel-with-spt/subway/" target="_blank">Travel options (subway)</a></li>
-        <li><a href="https://www.glasgowlife.org.uk/museums" target="_blank">Museums</a></li>
-    </ul>
-    <p>Look Below To See Pinpointed Locations Across Glasgow</p>
-</section>
+
+                <!-- Further Information Section -->
+                <section class="mt-5 ml-4">
+                    <h4>Further Information</h4>
+                    <ul>
+                        <li><a href="https://www.nts.org.uk/stories/glasgow-2-day-itinerary" target="_blank">National Trust Scotland</a></li>
+                        <li><a href="https://www.spt.co.uk/travel-with-spt/subway/" target="_blank">Travel options (subway)</a></li>
+                        <li><a href="https://www.glasgowlife.org.uk/museums" target="_blank">Museums</a></li>
+                    </ul>
+                    <p>Look Below To See Pinpointed Locations Across Glasgow</p>
+                </section>
             </div>
 
+            <!-- Right Column -->
             <div class="col-md-6">
                 <section>
-                      <img src="image.png" alt="An image hopefully if i can figure it out " class="img-fluid">
-                    <h5>More about my area </h5>
-                    <p>This section can be used to add more content later.la la la la la l al la la la la  You can use it to highlighces.</p>
+                    <img src="image.png" class="img-fluid">
+                    <h5>More about my area</h5>
+                     <h6>About Giffnock</h6>
+        <p>
+            Giffnock is a suburban town located in East Renfrewshire, Scotland.
+             Known for its scenic surroundings, excellent local amenities, and strong community
+        </p>
+        
                 </section>
+
+                <section class="mt-5 ml-3">
+    <h4>Fun Facts About Glasgow</h4>
+    <p>Here are some interesting and fun facts about Glasgow:</p>
+    <ul>
+        <li>Glasgow is the largest city in Scotland, and its name comes from the Gaelic word "Glaschu," meaning "dear green place."</li>
+        <li>During the 19th century, Glasgow was the hub of the shipbuilding industry, earning it the title of the "Second City of the British Empire."</li>
+        <li>Scotland's largest shopping center, the Buchanan Galleries, is located in Glasgow.</li>
+        <li>Glasgow is home to over 90 parks and green spaces, making it one of the greenest cities in Europe.</li>
+        <li>The famous Glasgow Subway is the third oldest underground system in the world, behind London and Budapest.</li>
+        <li>Glasgow is renowned for its music scene and is home to world-famous venues like the Hydro and King Tut's Wah Wah Hut.</li>
+        <li>Scotland’s first-ever football team, Queen’s Park FC, was founded in Glasgow in 1867.</li>
+    </ul>
+</section>
+
             </div>
         </div>
     </main>
 
-    
-        <!-- Leaflet Map -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <div id="map" style="width: 100%; height: 400px;"></div>
-        <button id="homeButton" style="margin-top: 10px;">Return to centre on map</button>
-        <script>
-            var map = L.map('map').setView([55.858, -4.259], 13);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
-            }).addTo(map);
+    <!-- Map Section -->
+    <div id="map" style="width: 100%; height: 400px;"></div>
+    <button id="homeButton" style="margin-top: 10px;">Return to centre on map</button>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([55.858, -4.259], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
 
-            var marker1 = L.marker([55.858, -4.259]).addTo(map)
-                .bindPopup('Glasgow Central')
-                .openPopup();
+        var marker1 = L.marker([55.858, -4.259]).addTo(map).bindPopup('Glasgow Central').openPopup();
+        var marker2 = L.marker([55.8688, -4.2916]).addTo(map).bindPopup('Kelvingrove Art Gallery');
+        var marker3 = L.marker([55.8608, -4.2571]).addTo(map).bindPopup('Sugo');
+        var marker4 = L.marker([55.8538, -4.2413]).addTo(map).bindPopup('Glasgow Green');
+        var marker5 = L.marker([55.8602, -4.2967]).addTo(map).bindPopup('River Clyde');
+       
+        document.getElementById('homeButton').onclick = function () {
+            map.setView([55.858, -4.259], 13);
+        };
+    </script>
 
-            var marker2 = L.marker([55.8688, -4.2916]).addTo(map)
-                .bindPopup('Kelvingrove Art Gallery');
+    <!-- Footer -->
+    <footer class="text-white text-center py-3">
+        <p>&copy; 2025 My Hometown by Isla Mccafferty</p>
+        <p>Find Us On:</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/YourPage" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="https://www.instagram.com/YourPage" target="_blank" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://twitter.com/YourPage" target="_blank" class="social-icon"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </footer>
 
-            var marker3 = L.marker([55.8608, -4.2571]).addTo(map)
-                .bindPopup('Sugo');
-
-            var marker4 = L.marker([55.8538, -4.2413]).addTo(map)
-                .bindPopup('Glasgow Green');
-
-            var marker5 = L.marker([55.8602, -4.2967]).addTo(map)
-                .bindPopup('River Clyde');
-
-            document.getElementById('homeButton').onclick = function () {
-                map.setView([55.858, -4.259], 13);
-            };
-        </script>
-   
-
-   <!-- Footer with Social Media Links -->
-<footer class="text-white text-center py-3">
-    <p>&copy; 2025 My Hometown by Isla Mccafferty</p>
-    <p>Contact us: <a href="islamccafferty@gmail.com" class="text-white">islamccafferty@gmail.com</a></p>
-    <p>Find Us On:</p>
-    <div class="social-media"> <a href="https://www.facebook.com/YourPage" target="_blank" class="social-icon"> 
-    <i class="fab fa-facebook-f"></i> Facebook </a> 
-    <a href="https://www.instagram.com/YourPage" target="_blank" class="social-icon"> 
-    <i class="fab fa-instagram"></i> Instagram </a>
-     <a href="https://twitter.com/YourPage" target="_blank" class="social-icon">
-     <i class="fab fa-twitter"></i> Twitter </a> 
-     </div>
-
-</footer>
-
-<!-- Include Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
-   
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
