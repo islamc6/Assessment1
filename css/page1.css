@@ -70,12 +70,11 @@ section.mt-5.ml-3 ul li {
     margin-bottom: 8px;
 }
 ul {
-    list-style-type: none; /* Removes default bullet points */
+    list-style-type: none; 
     padding-left: 0;
 }
 
 ul li {
-    margin-bottom: 10px; /* Adds space between list items */
+    margin-bottom: 10px; 
     font-size: 1.1em;
 }
-
